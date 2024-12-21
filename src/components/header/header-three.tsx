@@ -26,7 +26,7 @@ export default function HeaderThree({ transparentWhite = true, transparentHeader
           <div className="row align-items-center">
             <div className="col-xxl-4 col-xl-5 col-lg-6 col-2">
               <div className="tp-header-3-menu-wrap d-flex align-items-center">
-                <div className={`tp-header-3-menu-bar ${transparentWhite ? '' : 'tp-black'}`}>
+                <div className={`tp-header-3-menu-bar d-none ${transparentWhite ? '' : 'tp-black'}`}>
                   <OffcanvasBtn lines={2}/>
                 </div>
                 <div className={`tp-main-menu tp-main-menu-3 ${transparentWhite ? '' : 'tp-main-menu-4'} d-none d-lg-block`}>
@@ -39,7 +39,7 @@ export default function HeaderThree({ transparentWhite = true, transparentHeader
                 <Link className="p-relative" href="/">
                   <Image
                     data-width="155"
-                    style={{ width: "155px" }}
+                    style={{ width: "170px" }}
                     className="logo-normal"
                     src={transparentWhite ? logo_1 : logo_2}
                     alt="logo"
@@ -58,13 +58,13 @@ export default function HeaderThree({ transparentWhite = true, transparentHeader
             </div>
             <div className="col-xxl-4 col-xl-5 col-lg-4">
               <div className="tp-header-3-right d-flex align-items-center justify-content-end">
-                <div className={`tp-header-search tp-search-click d-none d-xl-block ${transparentWhite ? 'tp-header-3-search' : 'tp-black'}`}>
+                {/* <div className={`tp-header-search tp-search-click d-none d-xl-block ${transparentWhite ? 'tp-header-3-search' : 'tp-black'}`}>
                   <HeaderSearch/>
                 </div>
                 <div className={`tp-header-lang d-none d-lg-block ml-5 ${transparentWhite ? '' : 'tp-black'}`}>
                   <button>en</button>
                   <button>de</button>
-                </div>
+                </div> */}
                 <div className="tp-header-3-btn d-none d-lg-block ml-30">
                   <Link className="tp-btn-4" href="/contact">
                     <Calender />

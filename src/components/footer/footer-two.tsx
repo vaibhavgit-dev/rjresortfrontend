@@ -56,7 +56,7 @@ export default function FooterTwo() {
              <div className="row align-items-center">
                 <div className="col-md-6 pb-20">
                    <div className="tp-footer-copyright tp-footer-copyright-2">
-                      <p>Copyright © {new Date().getFullYear()} <a href="#">Themepure</a>. All Rights Reserved.</p>
+                      <p>Copyright © {new Date().getFullYear()} <a href="#">RJ REsort</a>. All Rights Reserved.</p>
                    </div>
                 </div>
                 <div className="col-md-6 pb-20">

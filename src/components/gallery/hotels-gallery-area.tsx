@@ -5,7 +5,7 @@ import GallerySlider from "./gallery-slider";
 
 export default function HotelsGalleryArea() {
     return (
-        <div className="tp-gallery-area tp-bg-gray fix pb-100">
+        <div className="tp-gallery-area fix pb-100">
             <div className="container-fluid gx-0 mb-20">
                 <div className="row">
                     <div className="col-lg-12">
