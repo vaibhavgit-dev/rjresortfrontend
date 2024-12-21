@@ -51,11 +51,7 @@ export default function LuxuryHotelPage() {
       {/* video area start */}
       <VideoArea/>
       {/* video area end */}
-
-      {/* offer area start */}
-      <OfferArea/>
-      {/* offer area end */}
-
+      
       {/* text slider area start */}
       <TextSliderArea/>
       {/* text slider area end */}
