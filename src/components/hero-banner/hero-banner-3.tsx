@@ -11,7 +11,10 @@ export default function HeroBannerThree() {
         <div>
             <div className="tp-hero-area tp-hero-3-spacing tp-hero-video-overly p-relative">
                 <div className="tp-hero-video-wrap">
-                    <div style={{ backgroundImage: `url(/assets/img/hero/home3/bg.jpg)` }} className="tp-hero-five-video youtube-bg" data-property="{videoURL:'hNN9Q3GuWEM',}">
+                    <div className="tp-hero-five-video youtube-bg" data-property="{videoURL:'hNN9Q3GuWEM',}">
+                    <video className="h-100" autoPlay muted loop>
+                        <source src="/assets/img/banner/banner-video-1.mp4" type="video/mp4"/>
+                    </video>
                         {/* <YouTube
                             videoId="hNN9Q3GuWEM"
                             opts={videoOptions}

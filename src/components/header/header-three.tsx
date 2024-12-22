@@ -26,7 +26,7 @@ export default function HeaderThree({ transparentWhite = true, transparentHeader
           <div className="row align-items-center">
             <div className="col-xxl-4 col-xl-5 col-lg-6 col-2">
               <div className="tp-header-3-menu-wrap d-flex align-items-center">
-                <div className={`tp-header-3-menu-bar d-none ${transparentWhite ? '' : 'tp-black'}`}>
+                <div className={`tp-header-3-menu-bar d-lg-none ${transparentWhite ? '' : 'tp-black'}`}>
                   <OffcanvasBtn lines={2}/>
                 </div>
                 <div className={`tp-main-menu tp-main-menu-3 ${transparentWhite ? '' : 'tp-main-menu-4'} d-none d-lg-block`}>
