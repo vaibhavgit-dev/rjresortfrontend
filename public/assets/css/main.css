@@ -6269,7 +6269,7 @@ input[type=color] {
   }
 }
 .tp-about-3-thumb {
-  padding-right: 185px;
+  padding-right: 0px !important;
   width: 100%;
   transform: translateX(-24px);
 }
