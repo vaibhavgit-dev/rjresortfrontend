@@ -44,14 +44,14 @@ export default function LuxuryHotelPage() {
       <LuxuryHotels/>
       {/* hotel area end */}
 
+      {/* video area start */}
+      <VideoArea/>
+      {/* video area end */}
+
       {/* hotel gallery */}
       <HotelsGalleryArea/>
       {/* hotel gallery */}
 
-      {/* video area start */}
-      <VideoArea/>
-      {/* video area end */}
-      
       {/* text slider area start */}
       <TextSliderArea/>
       {/* text slider area end */}

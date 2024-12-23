@@ -19,7 +19,7 @@ export default function VideoArea() {
                     </div>
                 </div>
             </div>
-            <div className="tp-video-great-work">
+            <div className="tp-video-great-work d-none">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
