@@ -11,7 +11,7 @@ export default async function LuxuryHotels() {
                 <div className="row mb-20">
                     <div className="col-lg-9 col-md-9 mb-15">
                         <div className="tp-room-title-wrap">
-                            <h5 className="tp-section-three-title-pre">RJ Resort </h5>
+                            <h5 className="tp-section-three-title-pre">RJ Resort, Darjeeling </h5>
                             <h2 className="tp-section-three-title mb-15">Rooms & Suites</h2>
                         </div>
                     </div>

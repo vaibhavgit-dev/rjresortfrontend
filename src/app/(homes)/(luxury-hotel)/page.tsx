@@ -25,7 +25,7 @@ export default function LuxuryHotelPage() {
       {/* hero banner area end */}
 
       {/* search area start */}
-      <SearchThree/>
+      {/* <SearchThree/> */}
       {/* search area end */}
 
       {/* about area start */}

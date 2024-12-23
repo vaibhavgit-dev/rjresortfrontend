@@ -99,15 +99,15 @@ export default function FooterArea({top_bg='tp-pink-bg',style_2}: IProps) {
             <div className="tp-footer-botom">
                <div className="container">
                   <div className="tp-footer-bottom-inner">
-                     <div className="row">
-                        <div className="col-sm-6">
+                     <div className="row justify-content-between">
+                        <div className="col-sm-6 order-2 order-lg-1">
                            <div className={`tp-footer-copyright ${style_2?'tp-footer-copyright-3':''}`}>
                               <p>Copyright © {new Date().getFullYear()} <a href="#">RJ Resort</a>. All Rights Reserved.</p>
                            </div>
                         </div>
-                        <div className="col-sm-6">
+                        <div className="col-sm-6 order-1 order-lg-2">
                            <div className={`tp-footer-develop tp-footer-copyright ${style_2?'tp-footer-copyright-3':''} text-right`}>
-                              <ul className="d-flex gap-3 justify-content-end" style={{listStyle: 'none'}}>
+                              <ul className="d-flex gap-3 justify-content-start justify-content-lg-end mb-4 mb-lg-0" style={{listStyle: 'none'}}>
                                  <li><a href="#">Terms of servicres</a></li>
                                  <li><a href="#">Privacy Policy</a></li>
                                  <li><a href="#">FAQs</a></li>

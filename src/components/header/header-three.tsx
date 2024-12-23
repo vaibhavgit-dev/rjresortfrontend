@@ -39,7 +39,7 @@ export default function HeaderThree({ transparentWhite = true, transparentHeader
                 <Link className="p-relative" href="/">
                   <Image
                     data-width="155"
-                    style={{ width: "170px" }}
+                    style={{ width: "200px", height: "auto" }}
                     className="logo-normal"
                     src={transparentWhite ? logo_1 : logo_2}
                     alt="logo"
@@ -47,7 +47,7 @@ export default function HeaderThree({ transparentWhite = true, transparentHeader
                   />
                   <Image
                     data-width="155"
-                    style={{ width: "155px" }}
+                    style={{ width: "130px", height: "auto"  }}
                     className="logo-sticky"
                     src={logo_2}
                     alt="logo"

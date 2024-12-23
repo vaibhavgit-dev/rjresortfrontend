@@ -46,8 +46,8 @@ export default function ServiceArea() {
                                         <Link href="/room-1">{service.title}</Link>
                                     </h3>
                                     <div className="tp-service-3-para pt-10">
-                                        <p>{service.description}</p>
-                                        <Link className="tp-btn-4" href="/room-1">Read more</Link>
+                                        <p className="mb-0">{service.description}</p>
+                                        <Link className="tp-btn-4 d-none" href="/room-1">Read more</Link>
                                     </div>
                                 </div>
                             </div>
