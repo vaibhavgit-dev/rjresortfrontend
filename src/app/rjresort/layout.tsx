@@ -3,6 +3,7 @@ import HeaderThree from "@/components/header/header-main";
 import FooterArea from "@/components/footer/footer-area";
 import MainProvider from "@/components/provider/main-provider";
 import HeaderTopArea from "@/components/header/components/header-top-area";
+import HeaderRj from "@/components/header/header-rj";
 
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -11,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {/* header top area */}
                 <HeaderTopArea />
             {/* header top area */}
-            <HeaderThree />
+            <HeaderRj />
             {children}
             <FooterArea style_2={true} top_bg="tp-falured-bg-2"/>
             <BackToTop/>
