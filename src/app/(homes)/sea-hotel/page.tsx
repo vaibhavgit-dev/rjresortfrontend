@@ -51,7 +51,7 @@ export default function SeaHotelPage() {
       {/* blog area end */}
 
       {/* instagram area start */}
-      <InstagramArea/>
+      {/* <InstagramArea/> */}
       {/* instagram area end */}
     </>
   )
