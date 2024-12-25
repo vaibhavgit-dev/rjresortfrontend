@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 import error_img from '@/assets/img/error/error.png';
 import Link from "next/link";
-import HeaderOne from "@/components/header/header-aurum";
 import FooterArea from "@/components/footer/footer-area";
+import HeaderAurum from "@/components/header/header-aurum";
 
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function NotFound() {
     return (
         <>
             {/* header area start */}
-            <HeaderOne style_2={true} />
+            <HeaderAurum />
             {/* header area end */}
             <main>
 
