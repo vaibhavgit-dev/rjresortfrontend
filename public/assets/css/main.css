@@ -8252,6 +8252,10 @@ input[type=color] {
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
+.gallery-logo {
+  width: 190px;
+  opacity: 0.4;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-gallery-logo svg {
     width: 100%;

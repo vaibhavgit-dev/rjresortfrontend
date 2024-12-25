@@ -35,7 +35,7 @@ export default function HotelsGalleryArea() {
                     <div className="col-lg-2 col-md-3 col-sm-3">
                         <div className="tp-gallery-logo">
                             <span>
-                                <GalleryLogo />
+                            <img src="/assets/img/gellary/gallerylogo.png" alt="Gallery Logo" className="w-100 opacity-50" />
                             </span>
                         </div>
                     </div>

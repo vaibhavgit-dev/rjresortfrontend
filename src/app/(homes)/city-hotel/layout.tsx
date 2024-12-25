@@ -1,4 +1,4 @@
-import HeaderTwo from "@/components/header/header-two";
+import HeaderTwo from "@/components/header/header-rj";
 import BackToTop from "@/components/common/back-to-top";
 import FooterTwo from "@/components/footer/footer-two";
 

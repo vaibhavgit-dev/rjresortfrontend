@@ -6,7 +6,7 @@ import HeaderStickyProvider from "./components/header-sticky-provider";
 import OffcanvasBtn from "../offcanvas/offcanvas-btn";
 
 
-export default function HeaderTwo() {
+export default function HeaderRj() {
     return (
         <header className="tp-header-height">
             <HeaderStickyProvider top_cls="tp-header-area tp-header-2-border tp-header-sm-spacing">

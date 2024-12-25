@@ -1,5 +1,5 @@
 import BackToTop from "@/components/common/back-to-top";
-import HeaderThree from "@/components/header/header-three";
+import HeaderThree from "@/components/header/header-main";
 import FooterArea from "@/components/footer/footer-area";
 import MainProvider from "@/components/provider/main-provider";
 
