@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import NavMenus from "./components/nav-menus";
-import logo from '@/assets/img/logo/logo.png';
+import logo from '@/assets/img/aurum/aurumlogo/aurumlogo.png';
 import HeaderStickyProvider from "./components/header-sticky-provider";
 import OffcanvasBtn from "../offcanvas/offcanvas-btn";
+import NavMenusAurum from "./components/nav-menus-aurum";
 
 
 export default function HeaderAurum() {
     return (
-        <header className="tp-header-height">
+        <header className="tp-header-height aurumheader">
             <HeaderStickyProvider top_cls="tp-header-area tp-header-2-border tp-header-sm-spacing">
                 <div className="container">
                     <div className="tp-header-main-wrap p-relative">
@@ -24,7 +24,7 @@ export default function HeaderAurum() {
                                 <div className="tp-main-menu tp-main-menu-2 text-center">
                                     <div className="tp-main-menu">
                                         {/* nav menus */}
-                                        <NavMenus />
+                                        <NavMenusAurum />
                                         {/* nav menus */}
                                     </div>
                                 </div>

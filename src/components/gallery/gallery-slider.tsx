@@ -42,10 +42,10 @@ export const gallery_swiper_options: SwiperOptions = {
 }
 
 const slider_images = [
-    '/assets/img/gellary/01.jpg',
-    '/assets/img/gellary/02.jpg',
-    '/assets/img/gellary/03.jpg',
-    '/assets/img/gellary/04.jpg',
+    '/assets/img/gellary/gallery1.JPG',
+    '/assets/img/gellary/gallery2.JPG',
+    '/assets/img/gellary/gallery3.JPG',
+    '/assets/img/gellary/gallery4.JPG',
 ]
 
 export default function GallerySlider() {
@@ -55,7 +55,7 @@ export default function GallerySlider() {
             {slider_images.map((img, i) => (
                 <SwiperSlide key={i}>
                     <div className="tp-gallery-item">
-                        <Image className="w-100" src={img} alt="gallery" width={1032} height={578} style={{height:'auto'}} />
+                        <Image className="w-100" src={img} alt="gallery" width={1032} height={380} style={{height:'380px', objectFit:'cover'}} />
                     </div>
                 </SwiperSlide>
             ))}

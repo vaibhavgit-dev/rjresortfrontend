@@ -4,7 +4,7 @@ import VideoProvider from "../provider/video-provider";
 
 export default function VideoArea() {
     return (
-        <div className="tp-video-area bg-position jarallax p-relative" style={{ backgroundImage: 'url(/assets/img/video/01.jpg)' }}>
+        <div className="tp-video-area bg-position jarallax p-relative" style={{ backgroundImage: 'url(/assets/img/video/videoplay.JPG)' }}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

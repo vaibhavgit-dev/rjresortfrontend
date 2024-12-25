@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import NavMenus from "./components/nav-menus";
 import logo from '@/assets/img/logo/logo.png';
 import HeaderStickyProvider from "./components/header-sticky-provider";
 import OffcanvasBtn from "../offcanvas/offcanvas-btn";
+import NavMenusRj from "./components/nav-menus-rj";
 
 
 export default function HeaderRj() {
@@ -24,7 +24,7 @@ export default function HeaderRj() {
                                 <div className="tp-main-menu tp-main-menu-2 text-center">
                                     <div className="tp-main-menu">
                                         {/* nav menus */}
-                                        <NavMenus />
+                                        <NavMenusRj />
                                         {/* nav menus */}
                                     </div>
                                 </div>

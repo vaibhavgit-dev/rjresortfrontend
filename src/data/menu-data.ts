@@ -85,44 +85,42 @@ const menu_data_one: IMenuItem[] = [
   { id: 7, label: "Contact", url: "/contact" },
 ];
 
+const menu_data_aurum: IMenuItem[] = [
+  {
+    id: 1,
+    label: "Home",
+    url: "/aurum",
+  },
+  {
+    id: 2,
+    label: "Rooms",
+    url: "/room-1",
+  },
+  { id: 3, label: "Gallery", url: "/gallery" },
+  { id: 4, label: "Contact", url: "/contact" },
+];
+
+const menu_data_rj: IMenuItem[] = [
+  {
+    id: 1,
+    label: "Home",
+    url: "/rjresort",
+  },
+  {
+    id: 2,
+    label: "Rooms",
+    url: "/room-1",
+  },
+  { id: 3, label: "Gallery", url: "/gallery" },
+  { id: 4, label: "Contact", url: "/contact" },
+];
+
 
 const menu_data_two:IMenuItemTwo[] = [
   {
     id: 1,
     label: "Home",
     url: "/",
-    // home_menus: [
-    //   {
-    //     id: 1,
-    //     label: "Modern Hotel",
-    //     url: "/",
-    //     img: "/assets/img/menu-demo/demo.jpg",
-    //   },
-    //   {
-    //     id: 2,
-    //     label: "City Hotel",
-    //     url: "/city-hotel",
-    //     img: "/assets/img/menu-demo/demo-2.jpg",
-    //   },
-    //   {
-    //     id: 3,
-    //     label: "Luxury Hotel",
-    //     url: "/luxury-hotel",
-    //     img: "/assets/img/menu-demo/demo-3.jpg",
-    //   },
-    //   {
-    //     id: 4,
-    //     label: "Modern Resort",
-    //     url: "/modern-resort",
-    //     img: "/assets/img/menu-demo/demo-4.jpg",
-    //   },
-    //   {
-    //     id: 5,
-    //     label: "Sea Hotel",
-    //     url: "/sea-hotel",
-    //     img: "/assets/img/menu-demo/demo-5.jpg",
-    //   },
-    // ],
   },
   {
     id: 2,
@@ -164,4 +162,6 @@ const menu_data_two:IMenuItemTwo[] = [
 export const MenuData = {
   menu_data_one,
   menu_data_two,
+  menu_data_aurum,
+  menu_data_rj,
 }
