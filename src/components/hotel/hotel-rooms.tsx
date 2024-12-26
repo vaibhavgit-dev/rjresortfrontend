@@ -6,7 +6,7 @@ import HotelSlider from "./hotel-slider";
 export default async function HotelRooms() {
    const allHotels =  await getModernHotels();
    return (
-      <div className="tp-suites-area pt-115 pb-115">
+      <div className="tp-suites-area pt-50 pb-0">
          <div className="container">
             <div className="row">
                <div className="col-lg-12">

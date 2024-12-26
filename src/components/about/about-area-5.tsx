@@ -3,7 +3,7 @@ import ab_thumb from '@/assets/img/about/hotel/thumb.jpg';
 
 export default function AboutAreaFive() {
     return (
-        <div className="tp-about-area pt-120 mb-120">
+        <div className="tp-about-area pt-50 mb-0">
             <div className="container">
                 <div className="tp-about-hotel-border">
                     <div className="row align-items-center">

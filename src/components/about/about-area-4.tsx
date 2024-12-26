@@ -11,13 +11,13 @@ export default function AboutAreaFour() {
     return (
         <>
             {/* about top */}
-            <div className="tp-about-top-area fix pt-125">
+            <div className="tp-about-top-area fix pt-50">
                 <div className="container">
-                    <div className="tp-about-top-inner pb-60">
+                    <div className="tp-about-top-inner pb-60 d-none">
                         <div className="row align-items-end">
                             <div className="col-lg-8">
                                 <div className="tp-about-top-content mb-50">
-                                    <h6 className="tp-about-top-subtitle"><span></span> About us</h6>
+                                    <h6 className="tp-about-top-subtitle"><span></span> About Rj Resort</h6>
                                     <h2 className="tp-about-top-title">Building your success through our unique <span>story.</span></h2>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@ export default function AboutAreaFour() {
                                         <Image className="rotate-infinite-2" src={shape} alt="shape" />
                                         <Image className="shape" src={brand} alt="brand" />
                                     </div>
-                                    <p>Welcome to Housey city hotel Times
+                                    <p>Welcome to RJ Resort city hotel Times
                                         Square, a luxury apartments on
                                         exciting coastline.</p>
                                 </div>
@@ -39,19 +39,19 @@ export default function AboutAreaFour() {
             {/* about top */}
 
             {/* about big thumb */}
-            <div className="tp-about-big-thumb jarallax fix p-relative">
+            <div className="tp-about-big-thumb jarallax fix p-relative d-none">
                 <Image className="w-100 jarallax-img" src={ab_img} alt="thumb" style={{ height: 'auto' }} />
             </div>
             {/* about big thumb */}
 
             {/* about bottom */}
-            <div className="tp-about-area pt-115 fix pb-60">
+            <div className="tp-about-area pt-0 fix pb-0">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-10">
                             <div className="tp-about-top-content mb-70">
-                                <h6 className="tp-about-top-subtitle"><span></span> About us</h6>
-                                <h2 className="tp-about-top-title tp-about-top-title-2">Symphony of luxury <span>awaits<br /> you </span>at our hotel.!</h2>
+                                <h6 className="tp-about-top-subtitle"><span></span> About Rj Resort</h6>
+                                <h2 className="tp-about-top-title tp-about-top-title-2">Symphony of luxury <span>awaits<br /> you </span>at our RJ Resort.!</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 d-none d-lg-block">
@@ -80,7 +80,7 @@ export default function AboutAreaFour() {
                         <div className="col-lg-6">
                             <div className="tp-about-4-content mb-40">
                                 <p className="mb-90">Hotels aren’t always hip. Hosts aren’t always reliable. So we’re changing the game—with spaces that inspire and delight, that fulfill needs without sacrificing style, all while delivering seamless, personalized experiences. Check in, request<br /> fresh towels,</p>
-                                <div className="tp-about-4-client-wrap">
+                                <div className="tp-about-4-client-wrap d-none">
                                     <div className="tp-about-4-client-img mb-10">
                                         <Image src={user_img} alt="user" />
                                     </div>

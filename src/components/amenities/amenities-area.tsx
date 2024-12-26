@@ -6,13 +6,13 @@ import Link from "next/link";
 export default async function AmenitiesArea() {
     const amenities = await getAmenities();
     return (
-        <div className="tp-feature-area pt-90 pb-90">
+        <div className="tp-feature-area pt-50 pb-0">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="tp-feature-title-wrap mb-60 text-center">
                             <h2 className="tp-section-title m-0 animate__animated animate__fadeInUp" style={{ animationDelay: '0.3s', animationDuration: '1s' }}>
-                                Facilities
+                                Things To Do
                             </h2>
                             <p className="tp-section-title-para animate__animated animate__fadeInUp" style={{ animationDelay: '0.5s', animationDuration: '1s' }}>
                                 Enjoy the luxury of time and convenience!

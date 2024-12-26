@@ -25,7 +25,7 @@ const serviceData = [
 
 export default function ServiceArea() {
     return (
-        <div className="tp-service-area mb-100">
+        <div className="tp-service-area mb-0">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

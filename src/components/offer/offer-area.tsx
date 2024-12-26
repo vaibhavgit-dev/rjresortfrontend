@@ -60,7 +60,7 @@ export default function OfferArea({ allOffers = false }: IProps) {
   const offerItems = allOffers ? offerData : offerData.slice(0, 3);
   return (
     <div
-      className={`tp-offer-area pt-120 pb-${allOffers ? '115' : '105'}`}
+      className={`tp-offer-area pt-50 pb-${allOffers ? '50' : '50'}`}
       style={{ backgroundImage: allOffers ? "none" : "url(/assets/img/offer/offer-bg.jpg)" }}
     >
       <div className="container">
@@ -68,8 +68,8 @@ export default function OfferArea({ allOffers = false }: IProps) {
           {!allOffers && (
             <div className="col-lg-12">
               <div className="tp-room-title-wrap text-center mb-50">
-                <h5 className="tp-section-three-title-pre">Offers</h5>
-                <h2 className="tp-section-three-title mb-15">Exclusive offers</h2>
+                <h5 className="tp-section-three-title-pre">Rj Resort Dining</h5>
+                <h2 className="tp-section-three-title mb-15">Dining</h2>
               </div>
             </div>
           )}
