@@ -1,0 +1,27 @@
+.spa-box .spa-text-box{
+    background-color: #fff;
+}
+.spa-box .spa-text-box p{
+    font-family: var(--tp-ff-onest);
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--tp-grey-4);
+}
+.spa-img{
+    width:100%;
+}
+.spa-img img{
+    height: 350px;
+    width:100%;
+    object-fit: cover;
+}
+.spa-img .swiper-slide {
+    transition: transform 0.9s ease-in-out;
+  }
+  @media (min-width:992px){
+    .spa-img img{
+        height: 500px;
+        width:100%;
+        object-fit: cover;
+    }
+  }

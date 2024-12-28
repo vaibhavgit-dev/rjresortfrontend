@@ -10,6 +10,7 @@ import GalleryArea from "@/components/gallery/gallery-area";
 import OfferArea from "@/components/offer/offer-area";
 import ServiceArea from "@/components/service/service-area";
 import AmenitiesArea from "@/components/amenities/amenities-area";
+import Spa from "@/components/spa/spa";
 
 
 export const metadata: Metadata = {
@@ -30,7 +31,7 @@ export default function LuxuryHotelPage() {
             <AboutAreaFive />
             {/* hotel about area end */}
             
-            
+            <Spa/>
 
 
             <OfferArea/>
