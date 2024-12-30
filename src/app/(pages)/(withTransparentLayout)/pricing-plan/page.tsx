@@ -5,7 +5,7 @@ import FaqAreaTwo from "@/components/faq/faq-area-two";
 
 
 export const metadata: Metadata = {
-    title: "Pricing Page - Housey",
+    title: "Pricing Page - rj_resort",
 }
 
 export default function PricingPage() {

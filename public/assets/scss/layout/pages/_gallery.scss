@@ -70,15 +70,15 @@
   &-view{
     font-weight: 600;
     letter-spacing: -0.02em;
-    color: var(--tp-theme-primary);
+    color: #d59020;
     padding-left: 65px;
     position: relative;
     & span{
-      @include bgborder(#B7124D, 0,0);
+      @include bgborder(#d59020, 0,0);
       @include transition(all .3s ease);
       &:hover{
-        color: var(--tp-theme-primary);
-        @include bgborder(#B7124D, 0,100%);
+        color: #d59020;
+        @include bgborder(#d59020, 0,100%);
         @include transition(all .3s ease);
       }
     }
@@ -90,7 +90,7 @@
       top: 50%;
       transform: translateY(-50%);
       left: 0;
-      background: var(--tp-theme-primary);
+      background: #d59020;
     }
   }
   &-slide{

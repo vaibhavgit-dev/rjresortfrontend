@@ -10,7 +10,7 @@ import AboutAreaTwo from "@/components/about/about-area-2";
 
 
 export const metadata: Metadata = {
-  title: "Luxury Hotel - Housey Resort and Hotel Next JS Template",
+  title: "Luxury Hotel - rj_resort Resort and Hotel Next JS Template",
 };
 
 export default function LuxuryHotelPage() {

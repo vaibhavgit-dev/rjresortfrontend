@@ -6,7 +6,6 @@ import { MenuData } from "@/data/menu-data";
 import NavMenusTwo from "./components/nav-menus-2";
 import { Calender } from "../svg";
 import HeaderStickyProvider from "./components/header-sticky-provider";
-import HeaderSearch from "../form/header-search";
 import OffcanvasBtn from "../offcanvas/offcanvas-btn";
 
 
@@ -39,8 +38,8 @@ export default function HeaderThree({ transparentWhite = true, transparentHeader
                 <Link className="p-relative" href="/">
                   <Image
                     data-width="155"
-                    style={{ width: "200px", height: "auto" }}
-                    className="logo-normal"
+                    style={{ width: "120px", height: "auto" }}
+                    className="logo-normal pt-2 pb-2"
                     src={transparentWhite ? logo_1 : logo_2}
                     alt="logo"
                     width={155}

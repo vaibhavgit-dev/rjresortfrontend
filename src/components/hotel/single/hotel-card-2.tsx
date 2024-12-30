@@ -16,7 +16,8 @@ export default function HotelCardTwo({ item, style_2 }: IProps) {
             <div className={`tp-room-content ${style_2?'box-bg':''}`}>
                 <span className="tp-room-tag mb-15">{item?.category}</span>
                 <h4 className="tp-room-title mb-20">
-                    <Link href={`/room-details/${item.id}`}>{item.name}</Link>
+                    {/* <Link href={`/room-details/${item.id}`}>{item.name}</Link> */}
+                    <Link href={`#`}>{item.name}</Link>
                 </h4>
                 <div className="tp-room-meta mb-30">
                     <ul>
@@ -35,10 +36,12 @@ export default function HotelCardTwo({ item, style_2 }: IProps) {
                     </ul>
                 </div>
                 {style_2 ? (<div className="tp-room-btn-3">
-                    <Link className="tp-btn-square" href={`/room-details/${item.id}`}>Book Now</Link>
+                    {/* <Link className="tp-btn-square" href={`/room-details/${item.id}`}>Book Now</Link> */}
+                    <Link className="tp-btn-square" href={`#`}>Book Now</Link>
                 </div>) : (
                     <div className="tp-room-btn-2">
-                        <Link className="tp-btn-4" href={`/room-details/${item.id}`}>Book</Link>
+                        {/* <Link className="tp-btn-4" href={`/room-details/${item.id}`}>Book</Link> */}
+                        <Link className="tp-btn-4" href={`#`}>Book</Link>
                     </div>
                 )}
             </div>

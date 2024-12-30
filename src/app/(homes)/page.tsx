@@ -13,7 +13,7 @@ import VideoArea from "@/components/video/video-area";
 
 
 export const metadata: Metadata = {
-  title: "Luxury Hotel - Housey Resort and Hotel Next JS Template",
+  title: "RJ Resort",
 };
 
 export default function LuxuryHotelPage() {
@@ -33,7 +33,7 @@ export default function LuxuryHotelPage() {
       {/* about area end */}
 
       {/* benefit area start */}
-      <BenefitArea/>
+      {/* <BenefitArea/> */}
       {/* benefit area end */}
 
        {/* service area start */}

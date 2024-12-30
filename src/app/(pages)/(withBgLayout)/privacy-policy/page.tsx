@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-    title: "Privacy Policy Page - Housey",
+    title: "Privacy Policy Page - rj_resort",
 };
 
 
@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
                             <div className="tp-privacy-box">
                                 <div className="tp-privacy-content">
                                     <h4 className="tp-privacy-content-title">Introduction</h4>
-                                    <p>At Housey, we value your privacy and are committed to protecting your personal information. This Privacy Policy is designed to help you understand how we collect, use, disclose, and safeguard your data. By using our website or services, you consent to the practices described in this policy.</p>
+                                    <p>At rj_resort, we value your privacy and are committed to protecting your personal information. This Privacy Policy is designed to help you understand how we collect, use, disclose, and safeguard your data. By using our website or services, you consent to the practices described in this policy.</p>
                                 </div>
                                 <div className="tp-privacy-content">
                                     <h4 className="tp-privacy-content-title">Information We Collect</h4>

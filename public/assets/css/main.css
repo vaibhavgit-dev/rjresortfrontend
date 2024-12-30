@@ -81,7 +81,7 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Onest:wght@100..900&family=Outfit:wght@100..900&family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .tp-offcanvas-area, .tp-offcanvas-social ul li a {
   -webkit-transition: all 0.3s 0s ease-out;
   -moz-transition: all 0.3s 0s ease-out;
@@ -127,12 +127,12 @@ li,
   /**
   @font family declaration
   */
-  --tp-ff-dm: 'DM Sans', sans-serif;
+  --tp-ff-dm: 'Playfair Display', serif;
   --tp-ff-playfair: 'Playfair Display', serif;
-  --tp-ff-amita: 'Amita', serif;
-  --tp-ff-outfit: 'Outfit', sans-serif;
-  --tp-ff-onest: 'Onest', sans-serif;
-  --tp-ff-parisienne: 'Parisienne', system-ui;
+  --tp-ff-amita: 'Playfair Display', serif;
+  --tp-ff-outfit: 'Playfair Display', serif;
+  --tp-ff-onest: 'Playfair Display', serif;
+  --tp-ff-parisienne: 'Playfair Display', serif;
   --tp-ff-fontawesome: "Font Awesome 6 Pro";
   /**
   @color declaration
@@ -145,14 +145,14 @@ li,
   --tp-common-black2: #19163c;
   --tp-common-black3: #180d06;
   --tp-common-black4: #2d1a0e;
-  --tp-common-falured: #a05916;
+  --tp-common-falured: #cf8c08;
   --tp-grey-1: #5A5859;
   --tp-grey-2: #c7c7c7;
   --tp-grey-3: #9d9d9d;
   --tp-grey-4: #595654;
   --tp-grey-5: #635c57;
-  --tp-theme-primary: #B7124D;
-  --tp-theme-1: #761f0e;
+  --tp-theme-primary: #cf8c08;
+  --tp-theme-1: #cf8c08;
   --tp-theme-2: #d59020;
 }
 
@@ -1089,8 +1089,9 @@ input[type=color] {
   font-family: var(--tp-ff-onest);
   font-weight: 600;
   color: var(--tp-common-white2);
-  padding: 15px 30px;
+  padding: 10px 20px !important;
   display: inline-block;
+  border-radius: 5px;
 }
 .tp-btn-4 svg {
   margin-right: 3px;
@@ -1665,7 +1666,7 @@ input[type=color] {
 }
 
 .tp-falured-bg {
-  background: #761f0e;
+  background: #d59021;
 }
 
 .tp-falured-bg-2 {
@@ -2996,7 +2997,6 @@ input[type=color] {
 
 .tp-transparent {
   position: absolute;
-  top: 0;
   left: 0;
   right: 0;
   width: 100%;
@@ -4288,7 +4288,7 @@ input[type=color] {
   color: #9d9c9d;
 }
 .tp-postbox-comment-input .tp-input:focus {
-  border: 1px solid #b7124d;
+  border: 1px solid #d59021;
   background: transparent;
 }
 .tp-postbox-comment-input .tp-label {
@@ -4710,14 +4710,14 @@ input[type=color] {
   line-height: 187%;
   letter-spacing: -0.02em;
   color: #cabbc0;
-  padding-left: 13px;
+  padding-left: 0px;
   position: relative;
 }
 .tp-footer-widget-content ul li a:hover {
   color: var(--tp-common-white);
 }
 .tp-footer-widget-content ul li a::before {
-  position: absolute;
+  position: relative;
   content: "";
   width: 4px;
   height: 4px;
@@ -5624,7 +5624,7 @@ input[type=color] {
 .tp-hero-3-title {
   font-family: var(--tp-ff-playfair);
   font-weight: 600;
-  font-size: 100px;
+  font-size: 90px;
   line-height: 1;
   letter-spacing: -0.04em;
   color: var(--tp-common-white2);
@@ -6246,10 +6246,10 @@ input[type=color] {
     margin-bottom: 40px;
   }
 }
-.tp-about-3-para {
+.tp-about-para {
   font-family: var(--tp-ff-onest);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 167%;
   color: var(--tp-grey-4);
 }
@@ -6953,7 +6953,7 @@ input[type=color] {
   }
 }
 .tp-contact-bg {
-  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 7.31%, #737373 100%);
+  background: linear-gradient(180deg, rgb(238 237 238) 7.31%, #c7f99829 100%);
   border-radius: 20px;
 }
 .tp-contact-subtitle {
@@ -7358,7 +7358,7 @@ input[type=color] {
 }
 .tp-service-3-wrap:hover .tp-service-3-content {
   transition-delay: 0s;
-  top: 48%;
+  top: auto;
   padding: 22px 43px 17px 43px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -7908,7 +7908,7 @@ input[type=color] {
 }
 
 .tp-text-slider {
-  padding: 24px 0px 20px 0px;
+  padding: 15px 0px 5px 0px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-text-slider {
@@ -7918,7 +7918,7 @@ input[type=color] {
 .tp-text-slider-title {
   font-family: var(--tp-ff-playfair);
   font-weight: 600;
-  font-size: 60px;
+  font-size: 40px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--tp-common-white2);

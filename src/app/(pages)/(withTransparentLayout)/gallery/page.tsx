@@ -4,7 +4,7 @@ import GalleryArea from "@/components/gallery/gallery-area";
 
 
 export const metadata: Metadata = {
-    title: "Gallery Page - Housey",
+    title: "Gallery Page - rj_resort",
 }
 
 export default function GalleryPage() {
