@@ -14,7 +14,7 @@ import Spa from "@/components/spa/spa";
 
 
 export const metadata: Metadata = {
-  title: "Luxury Hotel - rj_resort Resort and Hotel Next JS Template",
+  title: "Luxury Hotel - Housey Resort and Hotel Next JS Template",
 };
 
 export default function LuxuryHotelPage() {

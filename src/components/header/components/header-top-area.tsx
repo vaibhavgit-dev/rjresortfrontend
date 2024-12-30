@@ -14,15 +14,15 @@ export default function HeaderTopArea() {
             <div className="tp-header-info">
               <ul>
                 <li>
-                  <a href="mailto:info@rjresort.com">
+                  <a href="mailto:info@housey.com">
                     <Email />
                     info@rjresort.com
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+913542254411">
+                  <a href="tel:+9999999999">
                     <Phone />
-                    +91 354-2254411
+                    +9999999999
                   </a>
                 </li>
               </ul>
@@ -30,24 +30,37 @@ export default function HeaderTopArea() {
           </div>
           <div className="col-md-6">
             <div className="tp-header-top-right d-flex justify-content-end align-items-center">
-            <div className="tp-header-acount tp-header-usd tp-header-border-right">
+              {/* <div className="tp-header-usd tp-header-border-right tp-header-usd-spacing mr-20">
+                <span className="tp-header-selected-usd">EN</span>
+                <ul className="tp-header-usd-list">
+                  <li>Spanish</li>
+                  <li>English</li>
+                  <li>Canada</li>
+                </ul>
+              </div> */}
+              <div className="tp-header-acount tp-header-usd tp-header-border-right">
                 {userInfo?.user?.email ? (
                   <a className='pointer' onClick={handleLogout}>
                     <User />
                     {" "}{userInfo.user.username}
                   </a>
-                ) : (
-                  <>
-                    <Link href="/login">
-                      <User />
-                      {" "}Login
-                    </Link>
-                    <Link href="/register" className="ms-3">
-                      <User />
-                      {" "}Sign Up
-                    </Link>
-                  </>
-                )}
+                ) : <Link href="/login">
+                  <User />
+                  {" "}Login
+                </Link>
+                }
+              </div>
+              <div className="tp-header-acount tp-header-usd ms-3">
+                {userInfo?.user?.email ? (
+                  <a className='pointer' onClick={handleLogout}>
+                    <User />
+                    {" "}{userInfo.user.username}
+                  </a>
+                ) : <Link href="/register">
+                  <User />
+                  {" "}Sign Up
+                </Link>
+                }
               </div>
             </div>
           </div>

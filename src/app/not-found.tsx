@@ -3,7 +3,7 @@ import Image from "next/image";
 import error_img from '@/assets/img/error/error.png';
 import Link from "next/link";
 import FooterArea from "@/components/footer/footer-area";
-import Headerdefault from "@/components/header/header-default";
+import HeaderAurum from "@/components/header/header-aurum";
 
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function NotFound() {
     return (
         <>
             {/* header area start */}
-            <Headerdefault />
+            <HeaderAurum />
             {/* header area end */}
             <main>
 
@@ -42,7 +42,7 @@ export default function NotFound() {
             </main>
 
             {/* footer area start */}
-            <FooterArea style_2={true} top_bg="tp-falured-bg-2"/>
+            <FooterArea />
             {/* footer area end */}
         </>
     );

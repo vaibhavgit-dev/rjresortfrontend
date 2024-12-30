@@ -23,10 +23,10 @@ export default function HeroBannerThree() {
                 </div>
                 <div className="container p-relative">
                     <div className="row">
-                        <div className="col-lg-12 mb-35">
+                        <div className="col-lg-9 mb-35">
                             <div className="tp-hero-3-title-wrap">
-                                <h5 className="tp-hero-3-title-pre wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.1s">Welcome</h5>
-                                <h2 className="tp-hero-3-title wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Charming Himalayan retreat, <br /> <Image src={hero_and_img} alt="and" /> <span> Darjeeling elegance.</span></h2>
+                                <h5 className="tp-hero-3-title-pre wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.1s">Unique Historical Charm</h5>
+                                <h2 className="tp-hero-3-title wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.1s">The Exclusive Hotel <br /> <Image src={hero_and_img} alt="and" /> <span>Apartments!</span></h2>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function HeroBannerThree() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="tp-hero-discount-content text-center">
-                                <p>Book your stay with RJ Resort</p>
+                                <p>Book your summer stay with us on our website and <a href="#">Get 20% Off</a> if you book 2 nights or more! Valid from 1st May to 1st August.</p>
                             </div>
                         </div>
                     </div>

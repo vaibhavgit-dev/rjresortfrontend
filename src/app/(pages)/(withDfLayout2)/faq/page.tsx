@@ -3,7 +3,7 @@ import FaqAreaThree from "@/components/faq/faq-area-three";
 import BreadcrumbSix from "@/components/breadcrumb/breadcrumb-six";
 
 export const metadata: Metadata = {
-    title: "Faq Page - rj_resort",
+    title: "Faq Page - Housey",
 }
 
 export default function FaqPage() {

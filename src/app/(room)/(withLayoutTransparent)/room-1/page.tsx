@@ -6,7 +6,7 @@ import RoomOneArea from "@/components/room/room-one-area";
 
 
 export const metadata: Metadata = {
-    title: "Room 1 - rj_resort",
+    title: "Room 1 - Housey",
 };
 
 type IParams = Promise<{checkin: string;checkout: string;adults: string;children: string;searchTerm: string }>;

@@ -5,7 +5,7 @@ import GallerySlider from "./gallery-slider";
 
 export default function HotelsGalleryArea() {
     return (
-        <div className="tp-gallery-area bg-white fix pb-100 pt-80">
+        <div className="tp-gallery-area fix pb-100 pt-80">
             <div className="container-fluid gx-0 mb-20">
                 <div className="row">
                     <div className="col-lg-12">
@@ -43,7 +43,7 @@ export default function HotelsGalleryArea() {
                         <div className="tp-gallery-content">
                             <h2 className="tp-gallery-title mb-25">Planning a Dream Vacation or a Spontaneous Weekend Getaway?</h2>
                             <p className="mb-40">In the era of endless possibilities, travel enthusiasts embark on journeys to explore new horizons. A crucial aspect of any travel plan is finding the perfect accommodation, and in this blog post, we will delve into the art of seamless hotel booking. Whether you are a seasoned traveler or a first-timer, these tips will ensure your hotel booking experience is smooth and rewarding.</p>
-                            <Link className="tp-gallery-view" href="#"><span>View Gallery</span></Link>
+                            <Link className="tp-gallery-view" href="/pricing-plan"><span>View Prices</span></Link>
                         </div>
                     </div>
                 </div>

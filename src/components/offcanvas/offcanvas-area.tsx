@@ -42,7 +42,7 @@ export default function OffcanvasArea({ open, onClose }: IProps) {
                             <h3 className="tp-offcanvas-title sm">Information</h3>
                             <ul>
                                 <li><a href="tel:1245654">+ 4 20 7700 1007</a></li>
-                                <li><a href="mailto:hello@rj_resort.com">hello@rj_resort.com</a></li>
+                                <li><a href="mailto:hello@housey.com">hello@housey.com</a></li>
                                 <li><a href="#">Avenue de Roma 158b, Lisboa</a></li>
                             </ul>
                         </div>

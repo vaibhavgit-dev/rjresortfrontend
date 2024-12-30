@@ -48,7 +48,7 @@ export default function ContactForm() {
                             label="Email"
                             id="email"
                             type="email"
-                            placeholder="your-mail@mail.com"
+                            placeholder="housey@mail.com"
                             required
                             {...register("email", { required: "Email is required" })}
                             error={errors.email?.message}

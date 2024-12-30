@@ -23,6 +23,7 @@ export default function ContactArea() {
                             <div className="tp-contact-content mb-35 text-center">
                                 <span className="tp-contact-subtitle mb-20">Contact Us</span>
                                 <h2 className="tp-contact-title">Contact Our Team</h2>
+                                <p className="tp-contact-dis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.<br /> Nullam congue blandit quam, sit amet</p>
                                 <div className="tp-contact-list">
                                     <ul>
                                         <li>
@@ -36,6 +37,12 @@ export default function ContactArea() {
                                                 <CheckSvg />
                                             </span>
                                             <p>Do you have a question?</p>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <CheckSvg />
+                                            </span>
+                                            <p>Are you with the press?</p>
                                         </li>
                                     </ul>
                                 </div>

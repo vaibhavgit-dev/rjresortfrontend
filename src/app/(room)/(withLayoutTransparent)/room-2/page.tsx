@@ -5,7 +5,7 @@ import RoomTwoArea from "@/components/room/room-two-area";
 
 
 export const metadata: Metadata = {
-    title: "Room 2 - rj_resort",
+    title: "Room 2 - Housey",
 };
 
 

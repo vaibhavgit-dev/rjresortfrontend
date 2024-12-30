@@ -7,7 +7,7 @@ import AdventuresArea from "@/components/adventures/adventures-area";
 import BannerArea from "@/components/banner/banner-area";
 
 export const metadata: Metadata = {
-    title: "Destination Page - rj_resort",
+    title: "Destination Page - Housey",
 }
 
 export default function DestinationPage() {

@@ -3,7 +3,7 @@ import { emailVerify } from "@/api/auth";
 import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
-  title: "Email Verify - rj_resort",
+  title: "Email Verify - Housey",
 };
 
 type IParams = Promise<{ token: string }>;

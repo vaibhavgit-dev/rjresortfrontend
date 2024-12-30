@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 export const metadata: Metadata = {
-    title: "Destination Details  - rj_resort",
+    title: "Destination Details  - Housey",
 };
 
 type IParams = Promise<{ id: string }>;

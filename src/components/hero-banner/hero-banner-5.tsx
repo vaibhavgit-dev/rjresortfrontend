@@ -22,7 +22,7 @@ export default function HeroBannerFive() {
           <div className="row justify-content-center">
             <div className="col-xxl-10 col-xl-11 col-12">
               <div className="tp-hero-five-content mb-40">
-                <h2 className="tp-hero-five-title mb-5">Welcome to rj_resort</h2>
+                <h2 className="tp-hero-five-title mb-5">Welcome to housey</h2>
                 <p>Find Flights, hotels, visa & Holidays</p>
               </div>
             </div>

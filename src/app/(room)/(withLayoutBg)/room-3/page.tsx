@@ -5,7 +5,7 @@ import RoomThreeArea from "@/components/room/room-three-area";
 import SearchFive from "@/components/search/search-five";
 
 export const metadata: Metadata = {
-    title: "Room 3 - rj_resort",
+    title: "Room 3 - Housey",
 };
 
 export default async function RoomThreePage() {

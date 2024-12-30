@@ -5,27 +5,27 @@ import Link from "next/link";
 const serviceData = [
     {
         id: 1,
-        title: "Weddings Meetings & Events",
-        description: "We are pleased to inform you that our Resort features a luxurious spa,…",
+        title: "Meditation",
+        description: "We are pleased to inform you that our hotel apartment features a luxurious spa,…",
         image: "/assets/img/service/service3/01.jpg",
     },
     {
         id: 2,
         title: "Spa & Wellness",
-        description: "We are pleased to inform you that our Resort features a luxurious spa,…",
+        description: "We are pleased to inform you that our hotel apartment features a luxurious spa,…",
         image: "/assets/img/service/service3/02.jpg",
     },
     {
         id: 3,
-        title: "Summer",
-        description: "We are pleased to inform you that our Resort features a luxurious spa,…",
+        title: "Summer Terrace",
+        description: "We are pleased to inform you that our hotel apartment features a luxurious spa,…",
         image: "/assets/img/service/service3/03.jpg",
     }
 ];
 
 export default function ServiceArea() {
     return (
-        <div className="whitebg-area bg-white pt-60 pb-60">
+        <div className="tp-service-area mb-0">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -42,12 +42,12 @@ export default function ServiceArea() {
                                     <Image className="w-100" src={service.image} alt="service" width={384} height={500} style={{height:'auto'}} />
                                 </div>
                                 <div className="tp-service-3-content text-center">
-                                    <h2 className="tp-service-3-title">
-                                        <Link href="#">{service.title}</Link>
-                                    </h2>
+                                    <h3 className="tp-service-3-title">
+                                        <Link href="/room-1">{service.title}</Link>
+                                    </h3>
                                     <div className="tp-service-3-para pt-10">
-                                        <p className="mb-10">{service.description}</p>
-                                        <Link className="tp-btn-4" href="#">Read more</Link>
+                                        <p className="mb-0">{service.description}</p>
+                                        <Link className="tp-btn-4 d-none" href="/room-1">Read more</Link>
                                     </div>
                                 </div>
                             </div>

@@ -5,7 +5,7 @@ import LoginShapes from "@/components/common/login-shapes";
 
 
 export const metadata: Metadata = {
-   title: "Register Page - rj_resort",
+   title: "Register Page - Housey",
 };
 
 

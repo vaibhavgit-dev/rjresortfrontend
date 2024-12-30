@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.scss";
-import "@/assets/css/main.css"
 import 'swiper/css/bundle';
 import {
   DM_Sans,
@@ -44,9 +43,9 @@ const parisienne = Parisienne({
 });
 
 export const metadata: Metadata = {
-  title: "RJ Resort",
+  title: "Housey Resort and Hotel Next JS Template",
   description:
-    "",
+    "Housey Resort and Hotel Booking Next js Template is the ultimate solution for showcasing your hotel, resort, or vacation rental in a modern and visually stunning way.",
 };
 
 export default function RootLayout({

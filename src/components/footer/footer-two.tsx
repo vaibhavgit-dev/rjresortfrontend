@@ -1,8 +1,11 @@
+import Image from "next/image";
+import card_img from "@/assets/img/card/01.png";
+import { XSvgTwo } from "../svg";
 
 export default function FooterTwo() {
   return (
     <footer>
-    {/* <div className="tp-footer-two-area">
+    <div className="tp-footer-two-area">
        <div className="container">
           <div className="row tp-footer-border-2 mb-40 pt-50">
              <div className="col-lg-5 col-md-7 col-12 mb-30">
@@ -64,7 +67,7 @@ export default function FooterTwo() {
              </div>
           </div>
        </div>
-    </div> */}
+    </div>
  </footer>
   )
 }
