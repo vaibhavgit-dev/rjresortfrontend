@@ -11,7 +11,7 @@ import StripeProvider from "@/components/provider/stripe-provider";
 import axiosInstance from "@/lib/axios";
 
 export const metadata: Metadata = {
-    title: "Checkout Page - Housey",
+    title: "Checkout Page - rj_resort",
 };
 
 type ISearchParams = Promise<{

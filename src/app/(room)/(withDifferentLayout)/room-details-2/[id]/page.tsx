@@ -5,7 +5,7 @@ import RoomDetailsTwoArea from "@/components/room/details/room-details-2/room-de
 
 
 export const metadata: Metadata = {
-    title: "Room Details  - Housey",
+    title: "Room Details  - rj_resort",
 };
 
 type IParams = Promise<{ id: string }>;

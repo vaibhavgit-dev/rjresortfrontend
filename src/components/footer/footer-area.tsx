@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from '@/assets/img/logo/logo-white.png';
+import logo from '@/assets/img/logo/logo3.png';
 import logo_2 from '@/assets/img/logo/logo3.png';
 import { UpArrow, XSvg } from "../svg";
 
@@ -24,20 +24,23 @@ export default function FooterArea({top_bg='tp-pink-bg',style_2}: IProps) {
                   </div>
                   <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                      <div className={`tp-footer-widget mb-60 ${style_2?'tp-footer-widget-3':''}`}>
+                     <h3 className={`tp-footer-widget-title mb-25 ${style_2?'tp-footer-widget-title-3':''}`}>Locations</h3>
                         <div className="tp-footer-widget-content">
-                           <div className={`tp-footer-location mb-20 ${style_2?'tp-footer-location-3':''}`}>
-                              <a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z">84 N. Hill Field St.Scarsdale, NY 10583</a>
-                           </div>
-                           <div className={`tp-footer-number mb-15 ${style_2?'tp-footer-number-3':''}`}>
-                              <span className={`tp-footer-call-title ${style_2?'tp-footer-call-title-3':''}`}>Call For Reservations</span>
-                              <a href="tel:+(62)43502476" className="tp-footer-call">+(62) 4350 2476</a>
-                           </div>
-                           <div className={`tp-footer-btn ${style_2?'tp-footer-btn-3':''}`}>
-                              <a href="#">View Map
-                                 <span>
-                                    <UpArrow/>
-                                 </span>
-                              </a>
+                        <div className="text-white">
+                           <ul className="list-inline list-unstyled">
+                              <li className="list-inline-item">
+                                 Darjeeling:  
+                                 <a href="https://maps.app.goo.gl/zX7DNRXNCPhDeysz9" className="text-white"> The "Mall" Opp Governor House
+                                 </a>
+                              </li>
+                              <li className="list-inline-item">
+                              </li>
+                              <li className="list-inline-item">
+                                 Siliguri: 
+                                 <a href="https://maps.app.goo.gl/t8u1i4kzUpohXd699" className="text-white"> NH 31 Bagdogra Behind Gateway Ford
+                                 </a>
+                              </li>
+                           </ul>
                            </div>
                         </div>
                      </div>
@@ -76,17 +79,17 @@ export default function FooterArea({top_bg='tp-pink-bg',style_2}: IProps) {
                   </div>
                   <div className={`col-xl-3 col-lg-3 col-md-6 ${style_2?'col-sm-8 mb-60':''}`}>
                      <div className={`tp-footer-widget ${style_2?'tp-footer-widget-3':'tp-footer-widget-space mb-60'}`}>
-                        <h3 className="tp-footer-widget-title mb-15">Don’t miss<br/> Our Latest Updated</h3>
-                        <p className={`tp-footer-widget-para ${style_2?'tp-footer-widget-para-3':''} mb-10`}>Sign up to our newsletter for exclusive offers.</p>
-                        <div className="tp-footer-form mb-20">
-                           <form action="#">
-                              <div className={`tp-footer-input ${style_2?'tp-footer-input-3':''} p-relative`}>
-                                 <input type="email" placeholder="E-mail"/>
-                                 <button type="button" className={`tp-footer-input-btn ${style_2?'tp-footer-input-btn-3':''} p-absolute`}>Subscribe</button>
-                              </div>
-                           </form>
+                     <h3 className={`tp-footer-widget-title mb-25 ${style_2?'tp-footer-widget-title-3':''}`}>Connect</h3>
+                     <div className="tp-footer-widget-content pb-20">
+                           <div className={`tp-footer-location mb-20 ${style_2?'tp-footer-location-3':''}`}>
+
+                           </div>
+                           <div className={`tp-footer-number mb-15 ${style_2?'tp-footer-number-3':''}`}>
+                              <span className={`tp-footer-call-title ${style_2?'tp-footer-call-title-3':''}`}>Call For Bookings</span>
+                              <a href="tel:+913542254411" className="tp-footer-call">+(91) 354-2254411</a>
+                           </div>
                         </div>
-                        <div className="tp-footer-social">
+                        <div className="tp-footer-social pt-10">
                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>

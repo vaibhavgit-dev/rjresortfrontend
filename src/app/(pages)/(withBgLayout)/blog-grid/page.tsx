@@ -5,7 +5,7 @@ import BreadcrumbThree from "@/components/breadcrumb/breadcrumb-three";
 
 
 export const metadata: Metadata = {
-    title: "Blog Grid Page - Housey",
+    title: "Blog Grid Page - rj_resort",
 }
 
 export default function BlogGridPage() {

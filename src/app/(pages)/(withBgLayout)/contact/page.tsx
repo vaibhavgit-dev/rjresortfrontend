@@ -4,7 +4,7 @@ import ContactItemArea from "@/components/contact/contact-item-area";
 
 
 export const metadata: Metadata = {
-    title: "Contact Page - Housey",
+    title: "Contact Rj Resort",
 };
 
 
