@@ -102,3 +102,12 @@
 //         </div>
 //     )
 // }
+import React from 'react'
+
+function AdventuresArea() {
+  return (
+    <div>adventures-area</div>
+  )
+}
+
+export default AdventuresArea
