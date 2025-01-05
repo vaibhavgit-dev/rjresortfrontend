@@ -3,7 +3,7 @@ import ab_thumb from '@/assets/img/about/hotel/thumb.jpg';
 
 export default function AboutAreaFive() {
     return (
-        <div className="tp-about-area pt-50 mb-0">
+        <div className="tp-about-area pt-0 mb-0">
             <div className="container">
                 <div className="tp-about-hotel-border">
                     <div className="row align-items-center">
@@ -15,7 +15,7 @@ export default function AboutAreaFive() {
                         <div className="col-lg-6">
                             <div className="tp-about-hotel-content">
                                 <div className="tp-about-title-box mb-35">
-                                    <span className="tp-about-hotel-subtitle">About Our Hotel</span>
+                                    <span className="tp-section-three-title-pre">About Our Hotel</span>
                                     <h2 className="tp-about-hotel-title mb-15">See Life From A<br /> Different Perspective.</h2>
                                     <p>In the morning, you can take a walk in the<br />
                                         fresh air-filled forest or stroll through<br />

@@ -43,8 +43,11 @@ const menu_data_rj: IMenuItem[] = [
     label: "Rooms",
     url: "#",
   },
-  { id: 3, label: "Gallery", url: "#" },
-  { id: 4, label: "Contact", url: "/contact" },
+  { id: 3, label: "Dining", url: "#" },
+  { id: 4, label: "Weeding Mertings & Events", url: "#" },
+  { id: 5, label: "Spa", url: "#" },
+  { id: 6, label: "Gallery", url: "#" },
+  { id: 7, label: "Contact", url: "/contact" },
 ];
 
 

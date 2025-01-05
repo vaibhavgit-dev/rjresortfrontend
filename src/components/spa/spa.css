@@ -20,8 +20,8 @@
   }
   @media (min-width:992px){
     .spa-img img{
-        height: 500px;
-        width:100%;
-        object-fit: cover;
-    }
+    height: 530px;
+    width:100%;
+    object-fit: cover;
+}
   }

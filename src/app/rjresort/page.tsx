@@ -40,23 +40,20 @@ export default function LuxuryHotelPage() {
                  {/* <ServiceArea/> */}
                  {/* service area end */}
 
-                 <GalleryArea/>
-
                  <AmenitiesArea/>
-            {/* counter area start */}
-            <CounterArea />
-            {/* counter area end */}
+
+            
+
+            {/* video area start */} 
+              <VideoArea />
+            {/* video area end */}
 
             {/* text slider area start */}
             <TextSliderArea cls='tp-text-spacing' content_2={true} />
             {/* text slider area end */}
 
-            {/* video area start */}
-            <VideoArea />
-            {/* video area end */}
-
             {/* brand area start */}
-            <BrandArea cls='tp-brand-border-2' />
+            {/* <BrandArea cls='tp-brand-border-2' /> */}
             {/* brand area end */}
 
     </>

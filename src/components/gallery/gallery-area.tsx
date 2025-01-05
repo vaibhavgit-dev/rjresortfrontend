@@ -35,10 +35,10 @@ export default function GalleryArea() {
     }, [initIsotop]);
     
     return (
-        <div className="tp-gallery-area-start pt-50 pb-0">
+        <div className="tp-gallery-area-start pt-60 pb-0 bg-white">
             <div className="container">
             <div className="tp-section-title-wrapper text-center h-100 mb-3">
-                     <h6 className="tp-section-title-pre-red tp-section-title-pre  wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">Rj Resort</h6>
+                     <h6 className="tp-section-three-title-pre wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">Rj Resort</h6>
                      <h2 className="tp-section-title  wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">Gallery</h2>
                   </div>
                 <div className="row grid gx-25" ref={isotopContainer}>

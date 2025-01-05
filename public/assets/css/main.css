@@ -7619,19 +7619,19 @@ input[type=color] {
   }
 }
 .tp-video-three-spacing {
-  padding-top: 250px;
-  padding-bottom: 225px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-video-three-spacing {
-    padding-top: 117px;
-    padding-bottom: 110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-video-three-spacing {
-    padding-top: 150px;
-    padding-bottom: 125px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 .tp-video-three-play {

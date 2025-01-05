@@ -19,13 +19,16 @@ import './spa.css'
 function Spa() {
   return (
     <>
-      <div className='spa-box pt-50 pb-0'>
+      <div className='spa-box pt-0 pb-0 bg-white'>
         <div className='row g-0'>
             <div className='col-lg-6 order-2 order-lg-1'>
                <div className='spa-text-box h-100 p-3 p-lg-5'>
                <h5 className="tp-section-three-title-pre">Rj Resort Weeding Mertings & Events</h5>
                <h2 className='tp-about-hotel-title mb-15'>Weeding Mertings & Events</h2>
                <p>welcomes its guests to a pleasant dining experience with exquisitely hand crafted delicacies. Indulge in the art of fine dining from the royal kitchens of India and savour global cuisines. Each restaurant has an interesting tale to tell on account of its origin or inspiration. Noormahal Palace offers a range of settings and cuisines. These are royal dining experiences to remember.</p>
+               <div className="tp-about-hotel-btn">
+                  <a className="tp-btn-4" href="#">Explore More</a>
+                </div>
                </div>
             </div>
             <div className='col-lg-6 order-1 order-lg-2'>
@@ -60,14 +63,14 @@ function Spa() {
                   <SwiperSlide>
                     <div className="testi-card">
                       <div className="crypto-logos">
-                        <img src="/assets/img/about/home3/01.jpg" alt="banner" />
+                        <img src="/assets/img/about/home3/03.jpg" alt="banner" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testi-card">
                       <div className="crypto-logos">
-                        <img src="/assets/img/about/home3/02.jpg" alt="banner" />
+                        <img src="/assets/img/about/home3/01.jpg" alt="banner" />
                       </div>
                     </div>
                   </SwiperSlide>
@@ -108,14 +111,21 @@ function Spa() {
                   <SwiperSlide>
                     <div className="testi-card">
                       <div className="crypto-logos">
-                        <img src="/assets/img/about/home3/01.jpg" alt="banner" />
+                        <img src="/assets/img/about/home3/04.jpg" alt="banner" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testi-card">
                       <div className="crypto-logos">
-                        <img src="/assets/img/about/home3/02.jpg" alt="banner" />
+                        <img src="/assets/img/about/home3/05.jpg" alt="banner" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="testi-card">
+                      <div className="crypto-logos">
+                        <img src="/assets/img/about/home3/06.jpg" alt="banner" />
                       </div>
                     </div>
                   </SwiperSlide>
@@ -127,6 +137,9 @@ function Spa() {
             <h5 className="tp-section-three-title-pre">Rj Resort Spa & Wellness</h5>
                <h2 className='tp-about-hotel-title mb-15'>Spa & Wellness</h2>
                <p>welcomes its guests to a pleasant dining experience with exquisitely hand crafted delicacies. Indulge in the art of fine dining from the royal kitchens of India and savour global cuisines. Each restaurant has an interesting tale to tell on account of its origin or inspiration. Noormahal Palace offers a range of settings and cuisines. These are royal dining experiences to remember.</p>
+               <div className="tp-about-hotel-btn">
+                  <a className="tp-btn-4" href="#">Explore More</a>
+                </div>
                </div>
             </div>
         </div>

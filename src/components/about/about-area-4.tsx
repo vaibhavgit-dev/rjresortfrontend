@@ -50,7 +50,7 @@ export default function AboutAreaFour() {
                     <div className="row align-items-center">
                         <div className="col-lg-10">
                             <div className="tp-about-top-content mb-70">
-                                <h6 className="tp-about-top-subtitle"><span></span> About Rj Resort</h6>
+                                <h6 className="tp-section-three-title-pre"><span></span> About Rj Resort</h6>
                                 <h2 className="tp-about-top-title tp-about-top-title-2">Symphony of luxury <span>awaits<br /> you </span>at our RJ Resort.!</h2>
                             </div>
                         </div>

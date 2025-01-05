@@ -6,7 +6,7 @@ import Link from "next/link";
 export default async function AmenitiesArea() {
     const amenities = await getAmenities();
     return (
-        <div className="tp-feature-area pt-50 pb-0">
+        <div className="tp-feature-area pt-50 pb-0 bg-white">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
