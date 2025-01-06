@@ -14,7 +14,7 @@ export default async function HotelRooms() {
                      <div className="d-flex justify-content-between align-items-end">
                         <div>
                         <h6 className="tp-section-three-title-pre wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">RJ Resort Suites</h6>
-                        <h2 className="tp-section-title  wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">Discover Tranquility in<br /> Our Relax Rooms</h2>
+                        <h2 className="tp-about-hotel-title  wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">Discover Tranquility in<br /> Our Relax Rooms</h2>
                         </div>
                         <div className="tp-about-hotel-btn">
                   <a className="tp-btn-4 mb-3" href="#">See More</a>

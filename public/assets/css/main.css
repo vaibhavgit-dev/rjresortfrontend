@@ -6314,7 +6314,7 @@ input[type=color] {
   }
 }
 .tp-about-top-title-2 {
-  font-size: 60px;
+  font-size: 3rem;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-about-top-title-2 {
@@ -12120,6 +12120,9 @@ p.checkout-coupon input[type=text]:focus {
 
 .card-header:first-child {
   border-radius: 0;
+}
+.bg-header{
+  height: 300px !important;
 }
 
 /*# sourceMappingURL=main.css.map */
