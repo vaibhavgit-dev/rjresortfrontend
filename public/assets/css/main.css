@@ -12124,5 +12124,26 @@ p.checkout-coupon input[type=text]:focus {
 .bg-header{
   height: 300px !important;
 }
+ul.nav-pills{
+  background-color: transparent;
+}
+ul.nav-pills .nav-item{
+  font-family: var(--tp-ff-onest);
+  font-weight: 500;
+  font-size: 15px;
+  box-shadow: 0 1px 1px 0 rgba(32, 33, 36, 0.12), inset 0 -1px 3px 0 rgba(32, 33, 36, 0.14);
+  background: var(--tp-common-white);
+  border-radius: 6px;
+  display: inline-block;
+}
+ul.nav-pills .nav-item .nav-link{
+  padding: 6px 20px 5px 20px;
+  color: #141414;
+}
+ul.nav-pills .nav-item .nav-link.active{
+  box-shadow: 0 1px 1px 0 rgba(32, 33, 36, 0.12), inset 0 -1px 3px 0 rgba(32, 33, 36, 0.14);
+  background: var(--tp-theme-primary);
+  color: var(--tp-common-white);
+}
 
 /*# sourceMappingURL=main.css.map */

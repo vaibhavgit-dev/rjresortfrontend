@@ -41,12 +41,12 @@ const menu_data_rj: IMenuItem[] = [
   {
     id: 2,
     label: "Rooms",
-    url: "#",
+    url: "/rjresort/stay",
   },
-  { id: 3, label: "Dining", url: "#" },
-  { id: 4, label: "Weeding Mertings & Events", url: "#" },
-  { id: 5, label: "Spa", url: "#" },
-  { id: 6, label: "Gallery", url: "#" },
+  { id: 3, label: "Dining", url: "/rjresort/dining" },
+  { id: 4, label: "Weeding Meetings & Events", url: "/rjresort/weddingsandevents" },
+  { id: 5, label: "Spa", url: "/rjresort/spa" },
+  { id: 6, label: "Gallery", url: "/gallery" },
   { id: 7, label: "Contact", url: "/contact" },
 ];
 
