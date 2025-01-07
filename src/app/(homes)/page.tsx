@@ -36,33 +36,6 @@ export default function LuxuryHotelPage() {
       {/* <BenefitArea/> */}
       {/* benefit area end */}
 
-       {/* service area start */}
-      <ServiceArea/>
-      {/* service area end */}
-
-      {/* hotel area start */}
-      <LuxuryHotels/>
-      {/* hotel area end */}
-
-      {/* video area start */}
-      <div className="row g-0">
-        <div className="col-lg-6">
-        <VideoArea/>
-        </div>
-        <div className="col-lg-6">
-        <VideoArea/>
-        </div>
-      </div>
-      {/* video area end */}
-
-      {/* hotel gallery */}
-      <HotelsGalleryArea/>
-      {/* hotel gallery */}
-
-      {/* text slider area start */}
-      <TextSliderArea/>
-      {/* text slider area end */}
-
     </>
   )
 }
