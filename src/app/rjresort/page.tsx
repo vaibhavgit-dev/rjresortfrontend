@@ -14,7 +14,7 @@ import Spa from "@/components/spa/spa";
 
 
 export const metadata: Metadata = {
-  title: "Luxury Hotel - rj_resort Resort and Hotel Next JS Template",
+  title: "Rj Resort",
 };
 
 export default function LuxuryHotelPage() {
@@ -36,16 +36,13 @@ export default function LuxuryHotelPage() {
 
             <OfferArea/>
 
-           {/* service area start */}
-                 {/* <ServiceArea/> */}
-                 {/* service area end */}
-
-                 <AmenitiesArea/>
 
             
 
-            {/* video area start */} 
+            {/* video area start */}
+            <div className="mt-40"> 
               <VideoArea />
+              </div>
             {/* video area end */}
 
             {/* text slider area start */}

@@ -17,7 +17,7 @@ const serviceData = [
     },
     {
         id: 3,
-        title: "Summer",
+        title: "Dining",
         description: "We are pleased to inform you that our Resort features a luxurious spa,…",
         image: "/assets/img/service/service3/03.jpg",
     }

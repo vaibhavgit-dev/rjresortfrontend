@@ -6411,6 +6411,11 @@ input[type=color] {
   left: 0;
   right: 0;
 }
+
+.tp-about-4-expreance-content span.year {
+  font-size: 18px !important;
+}
+
 .tp-about-4-expreance-year {
   font-family: var(--tp-ff-onest);
   font-weight: 600;
@@ -6469,7 +6474,7 @@ input[type=color] {
 .tp-about-hotel-title {
   font-family: var(--tp-ff-playfair);
   font-weight: 700;
-  font-size: 50px;
+  font-size: 35px;
   line-height: 1.2;
   letter-spacing: -0.02em;
   color: var(--tp-common-black4);

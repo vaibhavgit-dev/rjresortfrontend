@@ -1,7 +1,6 @@
 import Image from "next/image";
 import shape from '@/assets/img/about/about-4/shape.png';
 import brand from '@/assets/img/about/about-4/brand.png';
-import ab_img from '@/assets/img/about/about-4/bg.jpg';
 import ab_img_2 from '@/assets/img/about/about-4/thumb.jpg';
 import rotate_shape from '@/assets/img/about/about-4/yers.png';
 import shape_2 from '@/assets/img/about/about-4/shape-2.png';
@@ -40,7 +39,7 @@ export default function AboutAreaFour() {
 
             {/* about big thumb */}
             <div className="tp-about-big-thumb jarallax fix p-relative d-none">
-                <Image className="w-100 jarallax-img" src={ab_img} alt="thumb" style={{ height: 'auto' }} />
+                <img className="w-100" src="/assets/img/rjresorts/rjresort1.jpeg" alt="thumb" style={{ height: 'auto' }} />
             </div>
             {/* about big thumb */}
 
@@ -51,7 +50,7 @@ export default function AboutAreaFour() {
                         <div className="col-lg-10">
                             <div className="tp-about-top-content mb-70">
                                 <h6 className="tp-section-three-title-pre"><span></span> About Rj Resort</h6>
-                                <h2 className="tp-about-top-title tp-about-top-title-2">Symphony of luxury <span>awaits<br /> you </span>at our RJ Resort.!</h2>
+                                <h2 className="tp-about-top-title tp-about-top-title-2">An intimate retreat in <span>Darjeeling’s<br /></span>most iconic address.</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 d-none d-lg-block">
@@ -63,15 +62,15 @@ export default function AboutAreaFour() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="tp-about-4-thumb p-relative mb-40">
-                                <Image className="w-100" src={ab_img_2} alt="thumb" style={{ height: 'auto' }} />
+                                <img className="w-100" src="/assets/img/rjresorts/rjresort1.jpeg" alt="thumb" style={{ height: 'auto' }} />
                                 <div className="tp-about-4-expreance">
                                     <div className="p-relative">
                                         <Image className="rotate-infinite" src={rotate_shape} alt="year" />
                                         <div className="tp-about-4-expreance-content text-center">
                                             <span className="year d-block mb-10">
-                                                25
+                                            Situated 
                                             </span>
-                                            <span className="tp-about-4-expreance-year">Years of<br />  Experience</span>
+                                            <span className="tp-about-4-expreance-year">on the iconic <br /> "Mall Road"</span>
                                         </div>
                                     </div>
                                 </div>
@@ -79,7 +78,8 @@ export default function AboutAreaFour() {
                         </div>
                         <div className="col-lg-6">
                             <div className="tp-about-4-content mb-40">
-                                <p className="mb-90">Hotels aren’t always hip. Hosts aren’t always reliable. So we’re changing the game—with spaces that inspire and delight, that fulfill needs without sacrificing style, all while delivering seamless, personalized experiences. Check in, request<br /> fresh towels,</p>
+                                <p className="mb-15">Nestled on the historic Mall Road and built with the same passion and care as our own home, RJ Resorts Darjeeling is more than a hotel—it’s a story of dedication passed through generations. Opposite the Governor’s House, our boutique property combines warmth, comfort, and attention to detail, offering guests a serene retreat in one of Darjeeling’s most prestigious neighborhoods. </p>
+                                <p>Every corner of RJ Resorts reflects our family’s unwavering commitment to hospitality, ensuring that each guest feels cared for and valued. Whether you’re here for a serene getaway, a family escape, or an intimate celebration, RJ Resorts is your gateway to a refined hill station experience.</p>
                                 <div className="tp-about-4-client-wrap d-none">
                                     <div className="tp-about-4-client-img mb-10">
                                         <Image src={user_img} alt="user" />
